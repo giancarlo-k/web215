@@ -1,0 +1,43 @@
+/* COLORS 
+Matcha - #4e825e 
+Pistache - #B3B792
+Vanilla - #E5D2B8 
+Almond - #E5E0D8 *
+Chai - #D2AB80
+Carob - #725C3A */
+
+body {
+  font-family: 'Noto Sans Gurmukhi', sans-serif;
+  padding: 5vh;
+  background: #E5E0D8;
+  
+}
+
+header, h2, .designedBy, .validationButtons, footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 7vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+.validationButtons {
+  justify-content: space-around;
+  width: 60%;
+  margin-top: 5vh;
+}
+
+a, a:visited {
+  color: #4e825e;
+  transition: 0.1s;
+}
+
+a:hover, a:focus {
+  color: rgb(0, 171, 74);
+  cursor: pointer;
+}
+
+
