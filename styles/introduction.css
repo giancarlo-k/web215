@@ -6,15 +6,28 @@ Almond - #E5E0D8 *
 Chai - #D2AB80
 Carob - #725C3A */
 
+.imageBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
 body {
   font-family: 'Noto Sans Gurmukhi', sans-serif;
   padding: 5vh;
   background: #E5E0D8;
+  
 }
 
 header, h2, .designedBy, .validationButtons, footer {
   display: flex;
   justify-content: center;
+}
+
+.designedBy {
+  margin-top: 5vh;
 }
 
 footer {
@@ -29,30 +42,44 @@ footer {
   margin-top: 5vh;
 }
 
-a, a:visited {
+nav ul a {
+  color: black;
+}
+
+a:not(nav ul a, .footerNav > li > a), a:not(nav ul a, .footerNav > li > a) {
   color: #4e825e;
   transition: 0.1s;
 }
 
-a:hover {
+a:hover:not(nav ul a, .footerNav > li > a), a:focus:not(nav ul a, .footerNav > li > a) {
   color: rgb(0, 171, 74);
   cursor: pointer;
 }
 
-.imageBox {
+header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  
 }
 
-.designedBy {
-  margin-top: 5vh;
+header nav {
+align-items: center;
+justify-content: space-around;
+width: 100%;
+margin-right: 2.5vh;
+}
+
+
+header nav ul {
+list-style: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
 }
 
 .navBox {
-  width: 80%;
+  width: 100%;
 
   font-size: 18px;
   text-decoration: none;
@@ -60,18 +87,20 @@ a:hover {
 
 .footerNav > li {
   display: inline;
+  margin-right: 2.5vh;
 }
 
-.footerNav > li > a {
+.footerNav > li > a, nav ul a {
   text-decoration: none;
   color: black;
   font-size: 16px;
-  padding: 11px;
+  padding: 14px;
   border-radius: 6%;
   transition: 0.1s;
+  
 }
 
-.footerNav > li > a:hover {
+.footerNav > li > a:hover, nav ul a:hover {
   background-color: #b3b79271;
   text-shadow: 1px 1px 5px white;
   text-decoration: underline;
@@ -85,7 +114,8 @@ a:hover {
 
 .footerLine {
   background-color: #B3B792;
-  width: 90%;
-  height: 2px;
-  border-radius: 30%;
+  width: 95%;
+  height: 1.5px;
+  border-radius: 29%;
 }
+
