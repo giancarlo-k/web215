@@ -34,14 +34,39 @@ footer {
   margin-top: 5vh;
 }
 
-a, a:visited {
+nav ul a {
+  color: black;
+}
+
+a:not(nav ul a, .footerNav > li > a), a:not(nav ul a, .footerNav > li > a) {
   color: #4e825e;
   transition: 0.1s;
 }
 
-a:hover, a:focus {
+a:hover:not(nav ul a, .footerNav > li > a), a:focus:not(nav ul a, .footerNav > li > a) {
   color: rgb(0, 171, 74);
   cursor: pointer;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav {
+align-items: center;
+justify-content: space-around;
+width: 100%;
+}
+
+
+header nav ul {
+list-style: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
 }
 
 .navBox {
@@ -55,7 +80,7 @@ a:hover, a:focus {
   display: inline;
 }
 
-.footerNav > li > a {
+.footerNav > li > a, nav ul a {
   text-decoration: none;
   color: black;
   font-size: 16px;
@@ -64,7 +89,7 @@ a:hover, a:focus {
   transition: 0.1s;
 }
 
-.footerNav > li > a:hover {
+.footerNav > li > a:hover, nav ul a:hover {
   background-color: #b3b79271;
   text-shadow: 1px 1px 5px white;
   text-decoration: underline;
@@ -79,6 +104,13 @@ a:hover, a:focus {
 .footerLine {
   background-color: #B3B792;
   width: 90%;
-  height: 2px;
+  height: 1.5px;
+  border-radius: 30%;
+}
+
+.footerLine2 {
+  background-color: #B3B792;
+  width: 90%;
+  height: 1.75px;
   border-radius: 30%;
 }
