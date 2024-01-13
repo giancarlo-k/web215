@@ -59,6 +59,7 @@ header nav {
 align-items: center;
 justify-content: space-around;
 width: 100%;
+margin-right: 2.5vh;
 }
 
 
@@ -79,6 +80,7 @@ justify-content: space-around;
 
 .footerNav > li {
   display: inline;
+  margin-right: 2.5vh;
 }
 
 .footerNav > li > a, nav ul a {
