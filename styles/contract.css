@@ -111,3 +111,9 @@ justify-content: space-around;
   border-radius: 29%;
 }
 
+main p {
+  width: 90%;
+  padding-left: 8vh;
+
+}
+
