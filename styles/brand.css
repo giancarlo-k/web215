@@ -10,8 +10,7 @@ Carob - #725C3A
 body {
   font-family: 'Noto Sans Gurmukhi', sans-serif;
   padding: 5vh;
-  background: #E5E0D8;
-  
+  background: #E5E0D8; 
 }
 
 header, h2, .designedBy, .validationButtons, footer {
