@@ -1,0 +1,240 @@
+/* COLORS 
+Matcha - #4e825e 
+Pistache - #B3B792
+Vanilla - #E5D2B8 
+Almond - #E5E0D8 *
+Chai - #D2AB80
+Carob - #725C3A */
+
+.imageBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  font-family: 'Noto Sans Gurmukhi', sans-serif;
+  padding: 5vh;
+  background: #E5E0D8;
+  
+}
+
+header, h2, .designedBy, .validationButtons, footer {
+  display: flex;
+  justify-content: center;
+}
+
+.designedBy {
+  margin-top: 5vh;
+}
+
+footer {
+  margin-top: 7vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+.validationButtons {
+  justify-content: space-around;
+  width: 60%;
+  margin-top: 5vh;
+}
+
+nav ul a {
+  color: black;
+}
+
+a:not(nav ul a, .footerNav > li > a), a:not(nav ul a, .footerNav > li > a) {
+  color: #4e825e;
+  transition: 0.1s;
+}
+
+a:hover:not(nav ul a, .footerNav > li > a), a:focus:not(nav ul a, .footerNav > li > a) {
+  color: rgb(0, 171, 74);
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav {
+align-items: center;
+justify-content: space-around;
+width: 100%;
+margin-right: 2.5vh;
+}
+
+
+header nav ul {
+list-style: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+
+.navBox {
+  width: 100%;
+
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footerNav > li {
+  display: inline;
+  margin-right: 2.5vh;
+}
+
+.footerNav > li > a, nav ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  padding: 11px;
+  border-radius: 6%;
+  transition: 0.1s;
+  
+}
+
+.footerNav > li > a:hover, nav ul a:hover {
+  background-color: #b3b79271;
+  text-shadow: 1px 1px 5px white;
+  text-decoration: underline;
+}
+
+.footerNav {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.footerLine {
+  background-color: #B3B792;
+  width: 95%;
+  height: 1.5px;
+  border-radius: 29%;
+}
+
+/* --------------------------------- */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  height: 72vh;
+  width: 80vh;
+  align-items: center;
+  background-color: #E5D2B8;
+  border-radius: 1.5%;
+  box-shadow: 3px 4px 3px 0.76px rgba(0, 0, 0, 0.397);
+  transition: 0.45s;
+  padding: 5vh;
+}
+
+form:hover {
+  box-shadow: -3px -3px 3px 0.76px rgba(81, 81, 81, 0.591);
+}
+
+.inputDiv {
+  padding-top: 3vh;
+}
+
+#photoInput {
+  position: relative;
+  top: -1.75px;
+  margin-left: 15px;
+}
+
+#photoCaption, #fullName {
+  position: relative;
+  top: -1.75px;
+  margin-left: 83px;
+}
+
+#fullName {
+  position: relative;
+  top: -1.75px;
+  margin-left: 145px; 
+}
+
+#interesting {
+  position: relative;
+  top: -1.75px;
+  margin-left: 25px; 
+}
+
+textarea {
+  position: relative;
+  top: 5.75px;
+  margin-left: 137px;
+}
+
+#second {
+  margin-left: 112px;
+}
+
+#third {
+  margin-left: 130px;
+}
+
+#fourth {
+  margin-left: 85px;
+}
+
+#primaryComp {
+  position: relative;
+  top: -1.75px;
+  margin-left: 95px; 
+}
+
+.inputDiv2, .inputDiv3 {
+  padding-top: 3vh;
+  display: flex;
+}
+
+.inputDiv2 label {
+  margin-right: 4vh;
+}
+
+.inputDiv2 input {
+  margin-left: 10px;
+}
+
+.submitButtonDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4vh;
+}
+
+#submit {
+  border: none;
+  background: white;
+  border-radius: 5%;
+  padding: 10px 15px 10px 15px ;
+  transition: 0.2s;
+}
+
+#submit:hover{
+  cursor: pointer;
+  background-color: #c0ac8f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
