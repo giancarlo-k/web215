@@ -11,7 +11,7 @@ body {
   font-family: 'Noto Sans Gurmukhi', sans-serif;
   padding: 5vh;
   background: #E5E0D8;
-  
+  padding: 3vh;
 }
 
 header, h2, .designedBy, .validationButtons, footer {
