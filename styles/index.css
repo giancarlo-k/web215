@@ -10,7 +10,8 @@ Carob - #725C3A
 body {
   font-family: 'Noto Sans Gurmukhi', sans-serif;
   padding: 5vh;
-  background: #E5E0D8; 
+  background: #E5E0D8;
+  padding: 3vh;
 }
 
 header, h2, .designedBy, .validationButtons, footer {
@@ -114,106 +115,16 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.mainRectangle {
-  border: 1.25px solid gray;
-  border-radius: 0.8%;
-  display: flex;
-  flex-direction: column;
-  width: 65%;
-  padding: 5vh;
-  align-items: center;
-  background-color: #E5D2B8;
-  min-height: 70vh;
-}
-
-
-.mainRectangle p {
-  max-width: 100%;
-}
-
-.colorScheme, .fontContainer {
-  margin-top: 5vh;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.brandP {
-  font-size: 24px;
-}
-
-.colorsBox {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
-.colorsBox > div {
-  width: 70px;
-  height: 70px;
-  margin: 15px;
-  border-radius: 100%;
-  border: 1px solid rgba(57, 57, 57, 0.142);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: 0.3s;
+main p {
+  width: 90%;
 }
 
-.colorsBox > div > p {
-  position: relative;
-  margin-top: 120px;
-  font-size: 14px;
-}
-
-.color1 {
-  background: #4e825e;
-}
-
-.color2 {
-  background: #B3B792;
-}
-
-.color3 {
-  background: #E5D2B8;
-}
-
-.color4 {
-  background: #D2AB80;
-}
-
-.color5 {
-  background: #E5E0D8;
-}
-
-.colorsBox > div:hover {
-  border: 1px solid black;
-}
-
-.twoFontBoxes {
-  font-size: 18px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.font1Box, .font2Box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 3vh;
-}
-
-.fontName {
-  font-size: 19px;
-}
-
-.font2Box {
-  font-family: 'Inter', sans-serif;
-  font-weight: 300;
+.validationButtons {
+  justify-content: space-around;
+  width: 50%;
+  margin-top: 1vh;
+  margin-right: 2.5vh;
 }
