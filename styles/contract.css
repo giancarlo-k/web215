@@ -31,8 +31,9 @@ footer {
 
 .validationButtons {
   justify-content: space-around;
-  width: 60%;
-  margin-top: 5vh;
+  width: 50%;
+  margin-top: 1vh;
+  margin-right: 2.5vh;
 }
 
 nav ul a {
