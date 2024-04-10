@@ -11,7 +11,7 @@ body {
   font-family: 'Noto Sans Gurmukhi', sans-serif;
   padding: 5vh;
   background: #E5E0D8; 
-  padding: 3vh;
+  padding: 4vh;
 }
 
 header, h2, .designedBy, .validationButtons, footer {
@@ -217,4 +217,8 @@ main {
 .font2Box {
   font-family: 'Inter', sans-serif;
   font-weight: 300;
+}
+
+.taglineImg {
+  margin-top: 4vh;
 }
