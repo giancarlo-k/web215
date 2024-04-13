@@ -200,6 +200,12 @@ textarea {
   margin-left: 95px; 
 }
 
+#amountOfCourses {
+  position: relative;
+  top: -1.75px;
+  margin-left: 150px; 
+}
+
 .inputDiv2, .inputDiv3 {
   padding-top: 3vh;
   display: flex;
@@ -238,3 +244,18 @@ textarea {
   margin-top: 4vh;
 }
 
+.mainRectangle {
+  border: 1.25px solid gray;
+  border-radius: 0.8%;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  padding: 5vh;
+  align-items: center;
+  background-color: #E5D2B8;
+  min-height: 10vh;
+}
+
+.mainRectangle p {
+  max-width: 100%;
+}
