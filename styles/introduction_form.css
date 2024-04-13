@@ -13,6 +13,8 @@ Carob - #725C3A */
   justify-content: center;
 }
 
+
+
 body {
   font-family: 'Noto Sans Gurmukhi', sans-serif;
   padding: 5vh;
@@ -174,6 +176,18 @@ form {
   position: relative;
   top: -1.75px;
   margin-left: 25px; 
+}
+
+#coursesContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px; /* Adjust as needed */
+}
+
+#coursesContainer textarea {
+  margin-right: 15px; /* Adjust as needed to align with other inputs */
+  margin-bottom: 10px; /* Adjust as needed for gaps between text areas */
+  margin-left: 37vh;
 }
 
 textarea {

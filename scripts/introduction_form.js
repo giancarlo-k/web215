@@ -1,11 +1,11 @@
+// Function to get element value by id
 const getElement = id => {
   let input = document.getElementById(id);
   return input.value;
 }
 
-let submit = document.getElementById('submit');
-
-submit.onclick = function submit() {
+// Function to handle submit button click
+function handleSubmit() {
   let photoInput = document.getElementById('photoInput');
   let photo = photoInput.files[0];
   let caption = getElement('photoCaption'),
@@ -74,9 +74,12 @@ submit.onclick = function submit() {
   } else {
     alert('Please select a photo');
   }
-};
+}
 
-// Function to dynamically generate text areas based on the number of courses entered
+// Attach event listener to the submit button
+document.getElementById('submit').addEventListener('click', handleSubmit);
+
+// Function to generate text areas based on the number of courses entered
 function generateTextAreas(numCourses) {
   var coursesContainer = document.getElementById('coursesContainer');
   coursesContainer.innerHTML = '<label>Courses you\'re taking & why:</label>';
@@ -95,10 +98,3 @@ document.getElementById('amountOfCourses').addEventListener('input', function() 
   var amountOfCourses = parseInt(this.value);
   generateTextAreas(amountOfCourses);
 });
-
-// Initially generate text areas based on the initial value of the number of courses field
-generateTextAreas(parseInt(document.getElementById('amountOfCourses').value));
-
-
-
-
