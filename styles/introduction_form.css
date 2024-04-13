@@ -128,23 +128,32 @@ main {
   align-items: center;
 }
 
+
 form {
-  height: 72vh;
-  width: 80vh;
-  align-items: center;
-  background-color: #E5D2B8;
-  border-radius: 1.5%;
-  box-shadow: 3px 4px 3px 0.76px rgba(0, 0, 0, 0.397);
-  transition: 0.45s;
+  border: 1.25px solid gray;
+  border-radius: 0.8%;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
   padding: 5vh;
+  align-items: flex-start; /* Align form items to the left */
+  background-color: #E5D2B8;
+  min-height: 69vh;
 }
 
-form:hover {
-  box-shadow: -3px -3px 3px 0.76px rgba(81, 81, 81, 0.591);
-}
 
 .inputDiv {
   padding-top: 3vh;
+}
+
+.inputDiv label {
+  text-align: left;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.inputDiv input,
+.inputDiv textarea {
+  margin-left: 0; /* Reset margin */
 }
 
 #photoInput {
@@ -231,3 +240,4 @@ textarea {
 .taglineImg {
   margin-top: 4vh;
 }
+
