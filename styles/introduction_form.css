@@ -13,13 +13,10 @@ Carob - #725C3A */
   justify-content: center;
 }
 
-
-
 body {
   font-family: 'Noto Sans Gurmukhi', sans-serif;
-  padding: 5vh;
+  padding: 1vh;
   background: #E5E0D8;
-  padding: 3vh;
 }
 
 header, h2, .designedBy, .validationButtons, footer {
@@ -27,21 +24,27 @@ header, h2, .designedBy, .validationButtons, footer {
   justify-content: center;
 }
 
+h2 {
+  margin-bottom: -1vh;
+}
+
 .designedBy {
-  margin-top: 5vh;
+  margin-top: 3vh;
+  justify-self: center;
+  align-self: center;
 }
 
 footer {
-  margin-top: 7vh;
+  margin-top: 3vh;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .validationButtons {
   justify-content: space-around;
-  width: 50%;
-  margin-top: 1vh;
-  margin-right: 2.5vh;
+  width: 20%;
+  margin-top: 1.5vh;
 }
 
 nav ul a {
@@ -137,7 +140,7 @@ form {
   display: flex;
   flex-direction: column;
   width: 65%;
-  padding: 5vh;
+  padding: 2vh 5vh;
   align-items: flex-start; 
   background-color: #E5D2B8;
   min-height: 69vh;
@@ -258,17 +261,7 @@ textarea {
   margin-top: 4vh;
 }
 
-.mainRectangle {
-  border: 1.25px solid gray;
-  border-radius: 0.8%;
-  display: flex;
-  flex-direction: column;
-  width: 65%;
-  padding: 5vh;
-  align-items: center;
-  background-color: #E5D2B8;
-  min-height: 10vh;
-}
+
 
 .mainRectangle p {
   max-width: 100%;

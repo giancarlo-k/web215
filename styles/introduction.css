@@ -24,6 +24,10 @@ header, h2, .designedBy, .validationButtons, footer {
   justify-content: center;
 }
 
+h2 {
+  margin-bottom: -1vh;
+}
+
 .designedBy {
   margin-top: 3vh;
   justify-self: center;
