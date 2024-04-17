@@ -136,7 +136,7 @@ form {
   border-radius: 0.8%;
   display: flex;
   flex-direction: column;
-  width: 45%;
+  width: 65%;
   padding: 5vh;
   align-items: flex-start; 
   background-color: #E5D2B8;
@@ -181,12 +181,12 @@ form {
 #coursesContainer {
   display: flex;
   flex-direction: column;
-  margin-top: 5px; /* Adjust as needed */
+  margin-top: 5px; 
 }
 
 #coursesContainer textarea {
-  margin-right: 15px; /* Adjust as needed to align with other inputs */
-  margin-bottom: 10px; /* Adjust as needed for gaps between text areas */
+  margin-right: 15px;
+  margin-bottom: 10px; 
   margin-left: 37vh;
 }
 
