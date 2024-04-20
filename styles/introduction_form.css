@@ -11,6 +11,7 @@ Carob - #725C3A */
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 body {
@@ -133,7 +134,6 @@ main {
   align-items: center;
 }
 
-
 form {
   border: 1.25px solid gray;
   border-radius: 0.8%;
@@ -146,7 +146,6 @@ form {
   min-height: 69vh;
 }
 
-
 .inputDiv {
   padding-top: 3vh;
 }
@@ -155,7 +154,6 @@ form {
   text-align: left;
   margin-right: 10px; 
 }
-
 
 #photoInput {
   position: relative;
@@ -260,8 +258,6 @@ textarea {
 .taglineImg {
   margin-top: 4vh;
 }
-
-
 
 .mainRectangle p {
   max-width: 100%;
